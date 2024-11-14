@@ -92,7 +92,7 @@ while(amount_of_times_wrong != 6 and current_letters_right != length_of_word_to_
     current_letters_guessed.append(letterGuessed)
     current_letters_right = printWord(current_letters_guessed)
     printLines()
-  ### User was wrong af
+  ### User was wrong
   else:
     amount_of_times_wrong+=1
     current_letters_guessed.append(letterGuessed)
